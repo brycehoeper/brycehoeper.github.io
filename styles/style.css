@@ -1,0 +1,77 @@
+header{
+    width: 100%; 
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0 5px 6px -6px black;
+    margin-top: -17px;
+    z-index: 1; 
+    position: relative;
+}
+
+.headerstrip h1 {
+    font-family: "Fertigo";
+    -webkit-text-stroke: 1px rgb(177, 177, 177);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+.headerstrip img {
+    margin: 20px 10px;
+}
+
+.headerstrip li {
+    display: inline;
+    float: left;
+}
+
+.headerstrip {
+    border-bottom: 2px solid #adadad;
+}
+
+.search img {
+    margin-top: 30px; 
+    margin-left: 30%;
+}
+
+nav {
+    clear: both;
+    width: 100%;
+    margin-left: 25px;
+    padding: 2px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 18px;
+}
+
+nav a {
+    color: rgb(126, 124, 124);   
+}
+
+
+.homepage {
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+    background-color: rgb(230, 158, 52);
+    padding: 5px;
+    border: 1px solid rgb(158, 100, 25);
+    border-radius: 5px;
+}
+
+.bodybanner {
+    background: radial-gradient(circle, #59c1ff, #0089ba);
+    color: rgb(253, 253, 253);
+    padding: 20px 10px;
+}
+
+.bannerimg {
+    padding-left: 650px;
+}
+
+.inside.left{
+    width: 28%;
+    padding: 5px;
+}
