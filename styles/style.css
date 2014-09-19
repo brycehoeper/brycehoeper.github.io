@@ -57,8 +57,12 @@ nav a {
     color: rgb(126, 124, 124); 
     text-decoration: none;
     font-size: 12px;
+    padding: 7px;
 }
 
+.login  {
+    margin-left: 210px;
+}
 
 .homepage {
     color: #1f1f1f;
@@ -68,13 +72,13 @@ nav a {
 nav a:hover {
     color: black;
     background-color: rgb(230, 158, 52);
-    padding: 5px;
+    padding: 6px;
     border: 1px solid rgb(158, 100, 25);
     border-radius: 5px;
 }
 
 .bodybanner {
-    background: radial-gradient(circle, #59c1ff, #0089ba);
+    background: radial-gradient(circle, #60c1ff, #0089ba);
     color: rgb(253, 253, 253);
     padding: 20px 10px; 
     margin: 0 auto; 
@@ -88,7 +92,7 @@ nav a:hover {
 .leftside {
     margin-top: -420px;
     margin-left: 168px;
-    padding-bottom: 350px;
+    padding-bottom: 100px;
 }
 
 h3 {
@@ -99,4 +103,34 @@ h3 {
 
 #promise  {
     margin-top: -15px;
+}
+
+#because  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+#because2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:-15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#grat  {
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#quote  {
+    font-size: 12px;
+    margin-top:-10px;
+}
+
+.getaquote {
+    width: 300px;
+    float: left;
 }
