@@ -7,6 +7,11 @@ header{
     position: relative;
 }
 
+.headerwrapper  {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .headerstrip h1 {
     font-family: "Fertigo";
     -webkit-text-stroke: 1px rgb(177, 177, 177);
@@ -26,16 +31,21 @@ header{
     border-bottom: 2px solid #adadad;
 }
 
+#topimg  {
+    margin-left: 0px;
+}
+
 .search img {
     margin-top: 30px; 
-    margin-left: 30%;
+    margin-left: 32%;
 }
 
 nav {
     clear: both;
-    width: 100%;
     margin-left: 25px;
     padding: 2px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 nav li {
@@ -44,7 +54,9 @@ nav li {
 }
 
 nav a {
-    color: rgb(126, 124, 124);   
+    color: rgb(126, 124, 124); 
+    text-decoration: none;
+    font-size: 12px;
 }
 
 
@@ -64,14 +76,27 @@ nav a:hover {
 .bodybanner {
     background: radial-gradient(circle, #59c1ff, #0089ba);
     color: rgb(253, 253, 253);
-    padding: 20px 10px;
+    padding: 20px 10px; 
+    margin: 0 auto; 
 }
 
 .bannerimg {
+    padding-top: 35px;
     padding-left: 650px;
 }
 
-.inside.left{
-    width: 28%;
-    padding: 5px;
+.leftside {
+    margin-top: -420px;
+    margin-left: 168px;
+    padding-bottom: 350px;
+}
+
+h3 {
+    font-size: 55px;
+    font-family: Open Sans Condensed;
+    font-weight: 300;
+}
+
+#promise  {
+    margin-top: -15px;
 }
