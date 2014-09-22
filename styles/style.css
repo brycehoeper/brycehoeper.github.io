@@ -10,7 +10,7 @@ html  {
 
 body  {
     width: 100%;
-    background-color: #d7d7d6;
+    background: radial-gradient(circle, #60c1ff, #0089ba);
     margin-left: -15px;
 }
 
@@ -102,6 +102,7 @@ nav a:hover {
 .bodybanner {
     height: 450px;
     width: 100%;
+    margin-bottom: -55px;
     background: radial-gradient(circle, #60c1ff, #0089ba);
     color: rgb(253, 253, 253);
 }
@@ -163,6 +164,9 @@ h3 {
 
 /****************PRE FOOTER****************/
 
+.prefooterwrap  {
+    background-color: #d7d7d7;
+}
 
 .prefooter  {
     height: 125px;
