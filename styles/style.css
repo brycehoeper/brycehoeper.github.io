@@ -95,13 +95,13 @@ nav a:hover {
 
 #bannerimg {
     float: right;
-    margin-right: 65px;
+    margin-right: 145px;
     margin-top: 55px;
 }
 
 .leftside {
     float: left;
-    margin-left: 125px;
+    margin-left: 155px;
     margin-top: -25px;
     margin-bottom: -25px;
 }
@@ -155,7 +155,7 @@ h3 {
 
 .prefooter ul  {
     height: 70px;
-    margin-left: 75px;
+    margin-left: 125px;
     margin-right: 77px;
 }
 
@@ -166,7 +166,7 @@ h3 {
 
 #footerhello  {
     float: left;
-    margin-left: 50px;
+    margin-left: 120px;
     margin-top: 45px;
 }
 
