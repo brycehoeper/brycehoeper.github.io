@@ -12,12 +12,6 @@ header{
     margin: 0 auto;
 }
 
-.headerstrip h1 {
-    font-family: "Fertigo";
-    -webkit-text-stroke: 1px rgb(177, 177, 177);
-    -webkit-text-fill-color: rgb(255, 255, 255);
-}
-
 .headerstrip img {
     margin: 20px 10px;
 }
@@ -133,4 +127,36 @@ h3 {
 .getaquote {
     width: 300px;
     float: left;
+}
+
+.prefooter  {
+    height: 500px;
+    background-color: #d7d7d6;
+    margin-top: -35px;
+}
+
+.prefooter ul  {
+    padding-top: 55px;
+    margin-left: 40px;
+}
+
+.prefooter li  {
+    display: inline;
+    float: left;
+}
+
+#footerhello  {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+footer  {
+    background-color: gray;
+    height: 300px;
+}
+
+.footertopbar  {
+    height: 15px;
+    background-color:  rgb(221, 221, 221);
+    border:2px solid rgb(126, 124, 124);
 }
