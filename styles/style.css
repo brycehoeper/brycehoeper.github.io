@@ -1,4 +1,13 @@
-header{
+html  {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+body  {
+    background-color: #d7d7d6;
+}
+
+header  {
     width: 100%; 
     background-color: rgb(221, 221, 221);
     box-shadow: 0 5px 6px -6px black;
@@ -75,7 +84,7 @@ nav a:hover {
     background: radial-gradient(circle, #60c1ff, #0089ba);
     color: rgb(253, 253, 253);
     padding: 20px 10px; 
-    margin: 0 auto; 
+    margin-left: -55px; 
 }
 
 .bannerimg {
@@ -129,8 +138,14 @@ h3 {
     float: left;
 }
 
+.prefooternav  {
+    float: left;
+    margin-left: 45px;
+}
+
 .prefooter  {
-    height: 500px;
+    height: 575px;
+    width: 100%;
     background-color: #d7d7d6;
     margin-top: -35px;
 }
@@ -141,13 +156,118 @@ h3 {
 }
 
 .prefooter li  {
-    display: inline;
+    display: inline-block;
     float: left;
+    white-space: normal;
 }
 
 #footerhello  {
-    margin-top: 100px;
-    margin-left: 150px;
+    float: left;
+    margin-left: 125px;
+    margin-top: 45px;
+}
+
+#freelance  {
+    color: #227ab0;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+#wemakethebest  {
+    float: right;
+    margin-top: 5px;
+    margin-right: 75px;
+}
+
+h4  {
+    font-size: 32px;
+    color: #227ab0;
+    margin-top: 60px;
+}
+
+#wemakethebest p  {
+    margin-bottom: -15px;
+}
+
+#wemakethebestleft, #wemakethebestright  {
+    width: 260px;
+    margin-left: -90px;
+    margin-right: 75px;
+    margin-top: -35px;
+    display: inline-block;
+    white-space: normal;
+}
+
+#wemakethebestleft  {
+    float: left;
+}
+
+#wemakethebestright  {
+    float: right;
+    width: 246px;
+}
+
+#wemakethebest li  {
+    padding: 8px;
+}
+
+#peskyproject  {
+    width: 300px;
+}
+
+#bottomquote    {
+    width: 450px;
+    float: right;
+    padding: 45px;
+    margin-top: -35px;
+    margin-right: 55px;
+    display: inline-block;
+    white-space: normal;
+}
+
+.bottomquotebox  {
+    width: 975px;
+    height: 275px;
+    background-color: #f8f7f7;
+    border: 15px solid #e5e5e5;
+    margin: 0px auto;
+}
+
+#thebestagency  {
+    width: 950px;
+    padding-top: 15px;
+    padding-left: 45px;
+    font-weight: 700;
+    color: #d05606;
+}
+
+#johndoequote  {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;    
+    font-style: italic;
+    font-size: 30px;
+    color: #666666;
+    width: 900px;
+    text-indent: 12px;
+    margin-top: -15px;
+    padding: 45px;
+    display: inline-block;
+    white-space: normal;
+}
+
+#awesomenesslogo  {
+    float: right;
+    padding-right: 25px;
+}
+
+#said  {
+    font-size: 12px;
+    float: right;
+    margin-top: 15px;
+
+}
+
+#bottomspacer  {
+    height: 55px;
 }
 
 footer  {
