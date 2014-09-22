@@ -5,6 +5,12 @@ html  {
 
 body  {
     background-color: #d7d7d6;
+    margin: 0px auto;
+}
+
+html, body {
+    width:100%;
+    height:100%;
 }
 
 header  {
@@ -81,27 +87,30 @@ nav a:hover {
 }
 
 .bodybanner {
+    height: 450px;
+    width: 100%;
     background: radial-gradient(circle, #60c1ff, #0089ba);
     color: rgb(253, 253, 253);
-    padding: 20px 10px; 
-    margin-left: -55px; 
 }
 
-.bannerimg {
-    padding-top: 35px;
-    padding-left: 650px;
+#bannerimg {
+    float: right;
+    margin-right: 65px;
+    margin-top: 55px;
 }
 
 .leftside {
-    margin-top: -420px;
-    margin-left: 168px;
-    padding-bottom: 100px;
+    float: left;
+    margin-left: 125px;
+    margin-top: -25px;
+    margin-bottom: -25px;
 }
 
 h3 {
     font-size: 55px;
     font-family: Open Sans Condensed;
     font-weight: 300;
+    margin-bottom: -15px;
 }
 
 #promise  {
@@ -138,33 +147,34 @@ h3 {
     float: left;
 }
 
-.prefooternav  {
-    float: left;
-    margin-left: 45px;
-}
-
 .prefooter  {
-    height: 575px;
-    width: 100%;
+    height: 125px;
     background-color: #d7d7d6;
-    margin-top: -35px;
+    margin-top: 35px;
 }
 
 .prefooter ul  {
-    padding-top: 55px;
-    margin-left: 40px;
+    height: 70px;
+    margin-left: 75px;
+    margin-right: 77px;
 }
 
 .prefooter li  {
     display: inline-block;
     float: left;
-    white-space: normal;
 }
 
 #footerhello  {
     float: left;
-    margin-left: 125px;
+    margin-left: 50px;
     margin-top: 45px;
+}
+
+.footer2  {
+    height: 450px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+    margin-left: 45px;
 }
 
 #freelance  {
@@ -174,9 +184,12 @@ h3 {
 }
 
 #wemakethebest  {
+    width: 500px;
     float: right;
     margin-top: 5px;
-    margin-right: 75px;
+    margin-right: 100px;
+    display: inline-block;
+    white-space: normal;
 }
 
 h4  {
@@ -192,7 +205,7 @@ h4  {
 #wemakethebestleft, #wemakethebestright  {
     width: 260px;
     margin-left: -90px;
-    margin-right: 75px;
+    margin-right: 0px;
     margin-top: -35px;
     display: inline-block;
     white-space: normal;
@@ -200,11 +213,15 @@ h4  {
 
 #wemakethebestleft  {
     float: left;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 #wemakethebestright  {
     float: right;
     width: 246px;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
 #wemakethebest li  {
@@ -219,8 +236,8 @@ h4  {
     width: 450px;
     float: right;
     padding: 45px;
-    margin-top: -35px;
-    margin-right: 55px;
+    margin-top: -75px;
+    margin-right: 110px;
     display: inline-block;
     white-space: normal;
 }
@@ -248,7 +265,7 @@ h4  {
     color: #666666;
     width: 900px;
     text-indent: 12px;
-    margin-top: -15px;
+    margin-top: -35px;
     padding: 45px;
     display: inline-block;
     white-space: normal;
@@ -270,13 +287,60 @@ h4  {
     height: 55px;
 }
 
-footer  {
-    background-color: gray;
-    height: 300px;
-}
 
 .footertopbar  {
     height: 15px;
     background-color:  rgb(221, 221, 221);
-    border:2px solid rgb(126, 124, 124);
+    border: 2px solid rgb(126, 124, 124);
 }
+
+
+footer  {
+    width: 100%;
+    background-color: #4b4d4a;
+    height: 300px;
+    margin: auto 0px;
+    display: block;
+}
+/***footer catagories***/
+
+.latestblog  {
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding: 25px;
+    margin: 0px 50px;
+}
+
+.recentcomments  {
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding: 25px;
+    margin: 0px 20px;
+}
+
+.advertising  {
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding: 25px;
+    margin: 0px 20px;
+}
+
+.twitterstuff  {
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding: 25px;
+    margin: 0px;
+}
+
+ h1 {
+    font-family: Open Sans Condensed;
+    text-decoration: underline;
+    font-weight: 300;
+    color: #c2c2c2;
+    font-size: 18px
+}
+
