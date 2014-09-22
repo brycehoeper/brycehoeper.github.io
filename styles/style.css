@@ -1,3 +1,5 @@
+/****************HTML BODY STUFF****************/
+
 html  {
     overflow-x: scroll;
     white-space: nowrap;
@@ -12,6 +14,8 @@ html, body {
     width:100%;
     height:100%;
 }
+
+/****************HEADER STUFF****************/
 
 header  {
     width: 100%; 
@@ -49,6 +53,8 @@ header  {
     margin-left: 32%;
 }
 
+/****************NAV STUFF****************/
+
 nav {
     clear: both;
     margin-left: 25px;
@@ -85,6 +91,8 @@ nav a:hover {
     border: 1px solid rgb(158, 100, 25);
     border-radius: 5px;
 }
+
+/****************MAIN CONTENT BANNER STUFF****************/
 
 .bodybanner {
     height: 450px;
@@ -146,6 +154,10 @@ h3 {
     width: 300px;
     float: left;
 }
+
+
+/****************PRE FOOTER****************/
+
 
 .prefooter  {
     height: 125px;
@@ -280,8 +292,10 @@ h4  {
     font-size: 12px;
     float: right;
     margin-top: 15px;
-
 }
+
+/****************FOOTER****************/
+
 
 #bottomspacer  {
     height: 55px;
@@ -298,11 +312,15 @@ h4  {
 footer  {
     width: 100%;
     background-color: #4b4d4a;
-    height: 300px;
+    height: 500px;
     margin: auto 0px;
     display: block;
 }
-/***footer catagories***/
+
+
+/****************FOOTER CATAGORIES****************/
+
+
 
 .latestblog  {
     width: 200px;
