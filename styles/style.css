@@ -225,18 +225,20 @@ h4  {
 
 #wemakethebestleft  {
     float: left;
-    margin-left: 15px;
+    margin-left: -50px;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 #wemakethebestright  {
     float: right;
     width: 246px;
     margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 75px;
 }
 
 #wemakethebest li  {
+    list-style:none;
     padding: 8px;
 }
 
