@@ -1,13 +1,17 @@
 /****************HTML BODY STUFF****************/
 
 html  {
+    max-width: 1400px;
+    min-width: 1270px;
     overflow-x: scroll;
     white-space: nowrap;
+    margin: 0px auto;
   }
 
 body  {
+    width: 100%;
     background-color: #d7d7d6;
-    margin: 0px auto;
+    margin-left: -15px;
 }
 
 html, body {
@@ -248,10 +252,9 @@ h4  {
 
 #bottomquote    {
     width: 450px;
-    float: right;
     padding: 45px;
-    margin-top: -75px;
-    margin-right: 110px;
+    margin-top: 275px;
+    margin-left: 125px;
     display: inline-block;
     white-space: normal;
 }
