@@ -95,11 +95,6 @@ nav a {
     color: white;
 }
 
-.homepage {
-    color: #1f1f1f;
-    font-weight: bold;
-}
-
 nav a:hover {
     color: black;
     background-color: rgb(230, 158, 52);
