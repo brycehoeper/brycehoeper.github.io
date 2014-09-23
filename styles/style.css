@@ -81,7 +81,18 @@ nav a {
 }
 
 .login  {
-    margin-left: 210px;
+    margin-left: 200px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.signup  {
+    padding: 3px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #8acad8;
+    background-color:  #2794cd;
+    color: white;
 }
 
 .homepage {
@@ -157,10 +168,8 @@ h3 {
 }
 
 .getaquote {
-    width: 300px;
-    float: left;
+    margin-top: 55px;
 }
-
 
 /****************PRE FOOTER****************/
 
@@ -176,6 +185,7 @@ h3 {
 
 .prefooter ul  {
     height: 70px;
+    padding-top: 75px;
     margin-left: 135px;
     margin-right: 77px;
 }
@@ -326,53 +336,88 @@ footer  {
     width: 100%;
     background-color: #4b4d4a;
     height: 500px;
-    margin: auto 0px;
+    margin: 0px auto;
     display: block;
 }
 
 
 /****************FOOTER CATAGORIES****************/
 
+.footerwrapper  {
+    width: 100%;
+    margin-left: 10px
+}
 
 /***Blog***/
 .latestblog  {
-    width: 200px;
+    width: 190px;
     height: 400px;
     float: left;
-    padding: 25px;
-    margin: 0px 50px;
+    padding: 30px;
+    margin-left: 85px;
+    margin-top: -10px;
 }
 #blogdate  {
     float: left;
     margin-right: 10px;
+    margin-top: 20px;
 }
 
 #blogtitle  {
     font-weight: 700;
+    margin-bottom: -7px;
+    margin-top: 27px;
+    color: white;
 }
+
+#blogpost p  {
+    margin-bottom: -12px;
+    color: white;
+}
+
+/***Recent Comments***/
 
 .recentcomments  {
     width: 200px;
     height: 400px;
     float: left;
     padding: 25px;
-    margin: 0px 20px;
+    margin-top: -5px;
+    margin-left: 40px;
 }
 
+#commenter  {
+    margin-left: 35px;
+    margin-top: -25px;
+    font-weight: 700;
+    color: white;
+}
+
+#comment  {
+    margin-top: 15px;
+    padding-left: 24px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+/***Ad Boxes***/
 .advertising  {
     width: 200px;
     height: 400px;
     float: left;
     padding: 25px;
-    margin: 0px 20px;
+    margin-top: -7px;
+    margin-left: 35px;
 }
 
+/***tweeter box***/
 .twitterstuff  {
     width: 200px;
     height: 400px;
     float: left;
     padding: 25px;
-    margin: 0px;
+    margin-top: -8px;
 }
 
  h1 {
